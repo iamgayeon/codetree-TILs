@@ -11,13 +11,11 @@ public class Main {
         char c2 = sc.next().charAt(0);
         int n2 = sc.nextInt();
 
-        if((c == 'Y' || c1 == 'Y' && c2 =='Y') && (n >=37 || n1 >=37 && n2 >=37)){
-            System.out.print("E");
+        if(((c == 'Y' && n >=37) && (c1 == 'Y' && n1 >=37)) || ((c1 == 'Y' && n1 >=37) && (c2 == 'Y' && n2 >=37)) || ((c2 == 'Y' && n2 >=37) && (c == 'Y' && n >=37))){
+            System.out.println("E");
         }
         else{
-            System.out.print("N");
+            System.out.println("N");
         }
     }
-
-
-}
+    }
