@@ -16,7 +16,7 @@ public class Main {
                 System.out.print(b);
             }
         // 6 5 4
-        if(c < b && c < a){
+        if(c < b && c <= a){
                 System.out.print(c);
         }
     }
