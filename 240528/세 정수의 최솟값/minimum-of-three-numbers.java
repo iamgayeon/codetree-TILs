@@ -8,15 +8,15 @@ public class Main {
         int c = sc.nextInt();
 
         // 4 5 6
-        if(a < b && a < c){
+        if(a <= b && a <= c){
               System.out.print(a);
             }
         // 5 4 6
-        if(b < c && b < a){
+        if(b <= c && b <= a){
                 System.out.print(b);
             }
         // 6 5 4
-        if(c < b && c < a){
+        if(c <= b && c <= a){
                 System.out.print(c);
         }
     }
