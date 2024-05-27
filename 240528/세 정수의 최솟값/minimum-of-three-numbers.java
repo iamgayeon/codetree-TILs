@@ -23,6 +23,9 @@ public class Main {
                 System.out.print(a);
             }
         }
+        if(b < c){
+                System.out.print(b);
+            }
 
 
     }
