@@ -7,26 +7,21 @@ public class Main {
         int b = sc.nextInt();
         int c = sc.nextInt();
 
-        if(a < b){
-            if(a < c){
-                System.out.print(a);
+        // 4 5 6
+        if(a < b && a < c){
+              System.out.print(a);
             }
-            else{
-                System.out.print(c);
-            }
-        }
-        if(a < c){
+        // 5 4 6
+        if(b < c){
             if(b < a){
                 System.out.print(b);
             }
-            else{
-                System.out.print(a);
+        // 6 5 4
+        if(b < a){
+            if(c < b){
+                System.out.print(c);
             }
         }
-        if(b < c){
-                System.out.print(b);
-            }
-
-
+        }
     }
 }
