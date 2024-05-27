@@ -5,11 +5,11 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = sc.nextInt();
-
-        if(a<b && a <=c){
+        if
+        if(a<=b && a<=c){
             System.out.print(c);
         }
-        else if(c<a && b<=a){
+        else if(c<=a && b<=a){
             System.out.print(a);
         }
         else{
