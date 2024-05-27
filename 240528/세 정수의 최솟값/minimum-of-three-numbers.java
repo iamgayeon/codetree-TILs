@@ -17,8 +17,8 @@ public class Main {
                 System.out.print(b);
             }
         // 6 5 4
-        if(b < a){
-            if(c < b){
+        if(c < b){
+            if(c < a){
                 System.out.print(c);
             }
         }
