@@ -6,8 +6,8 @@ public class Main {
         char a = sc.next().charAt(0);
         int b1 = sc.nextInt();
         char b = sc.next().charAt(0);
-        if(a == 'M' || b == 'M'){
-            if(a1 >= 19 || b1>= 19){
+        if(a1 >= 19 || b1>= 19){
+            if(a == 'M' || b == 'M'){
                 System.out.print(1);
             }
             else{
