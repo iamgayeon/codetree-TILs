@@ -12,16 +12,12 @@ public class Main {
               System.out.print(a);
             }
         // 5 4 6
-        if(b < c){
-            if(b < a){
+        if(b < c && b < a){
                 System.out.print(b);
             }
         // 6 5 4
-        if(c < b){
-            if(c < a){
+        if(c < b && c < a){
                 System.out.print(c);
-            }
-        }
         }
     }
 }
