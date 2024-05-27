@@ -9,6 +9,6 @@ public class Main {
         b = d;
         c = d;
 
-        System.out.printf(a + "" + b + "" + c);
+        System.out.print(a + " " + b + " " + c);
     }
 }
