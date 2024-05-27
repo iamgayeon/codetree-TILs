@@ -6,13 +6,13 @@ public class Main {
         int b = sc.nextInt();
         int c = sc.nextInt();
         
-        if(a<c && b <c){
+        if(a<=c && b <c){
             System.out.print(c);
         }
-        else if(c<a && b<a){
+        else if(c<a && b<=a){
             System.out.print(a);
         }
-        else if(c<b && a<b){
+        else if(c<=b && a<b){
             System.out.print(b);
         }
 
