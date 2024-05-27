@@ -3,11 +3,12 @@ public class Main {
         int a = 1;
         int b = 2;
         int c = 3;
+        int d;
+        d = a+ b + c ;
+        a =d;
+        b = d;
+        c = d;
 
-        a = a + b + c;
-        b = a + b + c;
-        c = a + b + c;
-
-        System.out.printf(a + '' + b + '' + c);
+        System.out.printf(a + "" + b + "" + c);
     }
 }
