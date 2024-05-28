@@ -5,9 +5,9 @@ public class Main {
         int n = sc.nextInt();
         int cnt = 0;
         for(int i=1;i<n;i++){
-            if(n%4==0){
+            if(i%4==0){
                 cnt++;}
-            else if(n%100==0 && n%400!=0){
+            else if(i%100==0 && i%400!=0){
                 cnt+=0;
             }
             else{
