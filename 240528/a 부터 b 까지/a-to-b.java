@@ -4,13 +4,15 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
+        
+        for(int i=a;i<=b;){
 
-        for(int i=a;i<b;){
-            System.out.print(i + " ");
             if(i%2==1){
+                System.out.print(i + " ");
                 i *= 2;
             }
             else{
+                System.out.print(i + " ");
                 i+=3;
                
             }
