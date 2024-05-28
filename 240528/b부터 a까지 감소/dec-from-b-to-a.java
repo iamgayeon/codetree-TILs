@@ -5,7 +5,7 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        for(int b;b>=a;b-=){
+        for(int b;b>=a;b-=1){
             System.out.print(b + " ");
         }
     }
