@@ -5,8 +5,8 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        for(int b;b>=a;b-=1){
-            System.out.print(b + " ");
+        for(int i=b;i>=a;i-=1){
+            System.out.print(i + " ");
         }
     }
 }
