@@ -10,7 +10,7 @@ public class Main {
                 cnt += 0;
             }
             else{
-                cnt++;
+                cnt+=1;
             }
           }
           else{
