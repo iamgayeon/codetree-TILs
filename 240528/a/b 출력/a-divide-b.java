@@ -4,6 +4,17 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
-        System.out.printf("%.20f", (double)a/b);
+
+        for(int i =0;i<21;i++){
+        int m = a /b;
+        int n = a%b;
+        a = n * 10;
+        System.out.print(m);
+        if(i==0){
+            System.out.print(".");
+        }
+
+        }
+
     }
 }
