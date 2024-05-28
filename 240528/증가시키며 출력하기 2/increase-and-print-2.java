@@ -5,6 +5,7 @@ public class Main {
         while(i <=26){
             System.out.print(i + " "
             );
+            i++;
         }
 
     }
