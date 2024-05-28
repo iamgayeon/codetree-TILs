@@ -7,15 +7,17 @@ public class Main {
         for(int i=1;i<n;i++){
             if(i%4==0){
                 if(i%100==0 && i%400!=0){
-                cnt+=0;
+                    cnt+=0;
                 }
                 else{
                     cnt++;
                 }
+               }
             else{
                 cnt +=0;
             }
         }
         System.out.print(cnt);
+
     }
 }
