@@ -3,7 +3,7 @@ public class Main {
         int i = 3;
         int n = sc.nextInt();
         while(i<=n){
-            System.out.print(n +" ");
+            System.out.print(i +" ");
             i+=3;
         }
     }
