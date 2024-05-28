@@ -8,7 +8,7 @@ public class Main {
         if(a < 0){
             System.out.print(0);
         }
-        else{
+        else if(a>=1){
             for(int i=1;i<=b;i++){
                 System.out.print(a);
             }
