@@ -4,6 +4,8 @@ public class Main {
         Scanner sc = new Scanner(System.in);
          int n = sc.nextInt();
          int cnt = 0;
+         if (n==1)
+            System.out.print(0);
         while(true){
             if(n % 2 ==0 ){
                 n = n/2;
