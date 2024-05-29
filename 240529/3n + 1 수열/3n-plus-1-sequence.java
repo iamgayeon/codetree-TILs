@@ -6,7 +6,7 @@ public class Main {
          int cnt = 0;
          if (n==1)
             System.out.print(0);
-        while(n!=0){
+        while(n!=1){
             if(n % 2 ==0 ){
                 n = n/2;
                 cnt+=1;
