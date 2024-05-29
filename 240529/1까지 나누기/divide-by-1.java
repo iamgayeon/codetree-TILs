@@ -11,7 +11,7 @@ public class Main {
                 cnt += 1;
                
             }
-            else if(n==1){
+            else {
                 break;
             }
         }
