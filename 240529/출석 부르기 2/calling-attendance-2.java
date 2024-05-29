@@ -11,7 +11,7 @@ public class Main {
                     System.out.println("Tom");
                 }
                 if(n == 3){
-                    System.out.println("Poul");
+                    System.out.println("Paul");
                 }
                 if(n == 4){
                     System.out.println("Sam");
