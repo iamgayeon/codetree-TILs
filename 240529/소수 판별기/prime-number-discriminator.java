@@ -12,10 +12,10 @@ public class Main {
             }
         }
         if(cnt >0){
-            System.out.print("P");
+            System.out.print("C");
         }
         else{
-            System.out.print("C");
+            System.out.print("P");
         }
     }
 }
