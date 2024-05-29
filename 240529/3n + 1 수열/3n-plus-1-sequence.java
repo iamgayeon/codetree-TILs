@@ -7,7 +7,7 @@ public class Main {
         
         while(true){
             if(n==1){
-                System.out.print(0);
+                
                 break;
             }
             if(n % 2 ==0 ){
