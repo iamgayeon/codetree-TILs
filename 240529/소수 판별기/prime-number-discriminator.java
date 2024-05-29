@@ -11,7 +11,7 @@ public class Main {
                 cnt +=1;
             }
         }
-        if(cnt >=1){
+        if(cnt >0){
             System.out.print("P");
         }
         else{
