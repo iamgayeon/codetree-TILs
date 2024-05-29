@@ -4,25 +4,23 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         while (true){
             int n = sc.nextInt();
-
-            while(true){
                 if(n == 1){
-                    System.out.print("John");
+                    System.out.println("John");
                 }
                 else if(n == 2){
-                    System.out.print("John");
+                    System.out.println("Tom");
                 }
                 else if(n == 3){
-                    System.out.print("John");
+                    System.out.println("poul");
                 }
                 else if(n == 4){
-                    System.out.print("John");
+                    System.out.println("Sam");
                 }
                 else{
-                    System.out.print("Vacancy");
+                    System.out.println("Vacancy");
                     break;
                 }
-            }
+            
         }
     }
 }
