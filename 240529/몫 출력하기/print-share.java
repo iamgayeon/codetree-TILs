@@ -7,7 +7,7 @@ public class Main {
             --cnt;
             int n = sc.nextInt();
             if(n%2==1){
-                continue;
+                
             }
             else{
                 System.out.println(n/2);
