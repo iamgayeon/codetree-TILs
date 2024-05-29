@@ -5,8 +5,8 @@ public class Main {
 
         int n=sc.nextInt();
         for(int i=1;i<=n;i++){
-            for(int j=n;j>0;j--){
-                System.out.print("*");
+            for(int j=n;j>=i;j--){
+                System.out.print("* ");
             }
             System.out.println();
         }
