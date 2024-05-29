@@ -6,10 +6,10 @@ public class Main {
         int sum = 0;
 
         for(int i= 1;i<=n;i++){
-            if(i%2!=0 || i%3 !=0 || i%5 !=0){
+            if(i%2==0 || i%3 ==0 || i%5 ==0){
                 sum += 1;
             }
         }
-        System.out.print(sum);
+        System.out.print(n-sum);
     }
 }
