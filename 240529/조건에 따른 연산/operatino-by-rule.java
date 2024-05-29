@@ -6,10 +6,7 @@ public class Main {
         int n = sc.nextInt();
         int cnt = 0;
 
-        while(true){
-            if(n >=1000){
-                break;
-            }
+        while(n <1000){
             if(n%2==0){
                 n = n*3+1;
 
