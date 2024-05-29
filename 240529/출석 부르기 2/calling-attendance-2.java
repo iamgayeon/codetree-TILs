@@ -7,16 +7,16 @@ public class Main {
                 if(n == 1){
                     System.out.println("John");
                 }
-                else if(n == 2){
+                if(n == 2){
                     System.out.println("Tom");
                 }
-                else if(n == 3){
+                if(n == 3){
                     System.out.println("Poul");
                 }
-                else if(n == 4){
+                if(n == 4){
                     System.out.println("Sam");
                 }
-                else{
+                if(n>4){
                     System.out.println("Vacancy");
                     break;
                 }
