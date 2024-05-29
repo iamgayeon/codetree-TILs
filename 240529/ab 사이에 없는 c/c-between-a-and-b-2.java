@@ -14,10 +14,10 @@ public class Main {
         }
 
         if(cnt>=1){
-            System.out.print("YES");
+            System.out.print("NO");
         }
         else{
-            System.out.print("NO");
+            System.out.print("YES");
         }
 
     }
