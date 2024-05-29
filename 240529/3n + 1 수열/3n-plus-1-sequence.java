@@ -4,9 +4,12 @@ public class Main {
         Scanner sc = new Scanner(System.in);
          int n = sc.nextInt();
          int cnt = 0;
-         if (n==1)
-            System.out.print(0);
-        while(n!=1){
+        
+        while(true){
+            if(n==1){
+                System.out.print(0);
+                break;
+            }
             if(n % 2 ==0 ){
                 n = n/2;
                 cnt+=1;
@@ -18,6 +21,7 @@ public class Main {
             if(n == 1){
                 break;
             }
+            
         }
         System.out.print(cnt);
 
