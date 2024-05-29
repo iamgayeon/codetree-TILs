@@ -8,7 +8,7 @@ public class Main {
         int c = sc.nextInt();
 
         for(int i =a;i<=b;i++){
-            if(i%4==0){
+            if(i%c==0){
                 cnt+=1;
             }
         }
