@@ -8,13 +8,14 @@ public class Main {
             int n = sc.nextInt();
             if((n >=20) && (n<=29)){
                 cnt++;
+                sum+=n;
             }
             else{
                 break;
             }
 
         }
-        total = (double)sum/cnt;
+        double total = (double)sum/cnt;
         System.out.printf("%.2f", total);
 
     }
