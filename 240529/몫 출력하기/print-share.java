@@ -4,7 +4,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int cnt=3;
         while(cnt!=0){
-            cnt--;
+            --cnt;
             int n = sc.nextInt();
             if(n%2==1){
                 continue;
