@@ -4,7 +4,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int cnt = 0;
         int n =sc.nextInt();
-        for(int i =1;i<=n;i++){
+        for(int i =1;i<n;i++){
             if(n%i==0){
                 cnt += 1;
             }
