@@ -18,7 +18,7 @@ public class Main {
                 break;
             }
         }
-        System.out.print(cnt);
+        System.out.print(cnt-1);
 
     }
 }
