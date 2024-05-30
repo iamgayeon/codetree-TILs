@@ -5,15 +5,15 @@ public class Main {
 
         int n = sc.nextInt();
 
-        for(int i =0;i<n;i++){
-            for(int j=n;n>0;j--){
-                for(int l = j;n>0;l--){
+        for(int i =n;i>0;i--){
+            
+            for(int l=0;l<i;l++){
+                 for(int j=0;j<i;j++){
                     System.out.print("*");
-                }
-                System.out.print(" ");
-
+                 }
+                 System.out.print(" ");
             }
-            System.out.println();
+        System.out.println();
         }
 
     }
