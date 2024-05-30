@@ -5,6 +5,7 @@ public class Main {
 
         int n = sc.nextInt();
         int j=0;
+        if(n > 1){
         for(int i=0;i<n;i++){
 
                 System.out.print(i+1);
@@ -14,7 +15,10 @@ public class Main {
                 j++;
                 System.out.println();
                 }
-           
+        }
+        else{
+            System.out.print(1);
+        }
         }
         
     
