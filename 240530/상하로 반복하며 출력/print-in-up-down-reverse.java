@@ -4,22 +4,22 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
-        int j=0;
-        if(n > 1){
-        for(int i=0;i<n;i++){
+        int num =n;
 
-                System.out.print(i+1);
-                System.out.print(n-j);
-                System.out.print(i+1);
-                System.out.print(n-j);
-                j++;
-                System.out.println();
+        for(int i =1;i<=n;i++){
+            for(int j=1;j<=n;j++){
+                if(j%2==1){
+                    System.out.print(i);
                 }
+                else{
+                    System.out.print(num);
+                }
+                
+            }
+            num -=1;
+            System.out.println();
         }
-        else{
-            System.out.print(1);
-        }
-        }
+
         
-    
+    }
 }
