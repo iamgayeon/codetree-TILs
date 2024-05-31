@@ -7,11 +7,11 @@ public class Main {
 
         for(int i =1;i<=n;i++){
             for(int j= 1;j<=n;j++){
-                if((i*j)%4 == 0){
-                    System.out.println("(" + i + "," + j") ");
+                if((i+j)%4 == 0){
+                    System.out.println("(" + i + ", " + j+") ");
                 }
                 else{
-                    System.out.println("(" + i + "," + j") ");
+                    System.out.print("(" + i + ", " + j+") ");
                 }
             }
         }
