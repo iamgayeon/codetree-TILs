@@ -10,7 +10,7 @@ public class Main {
             for(int j=b;j>=a;j-=2){
                 System.out.print(j + " * " + i + " = " + j*i);
 
-                if(j!=2){
+                if(j!=a){
                     System.out.print(" / ");
                 }
             }
