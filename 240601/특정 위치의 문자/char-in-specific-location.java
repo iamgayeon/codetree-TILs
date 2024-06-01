@@ -6,10 +6,19 @@ public class Main {
 
         char ch = sc.next().charAt(0);
 
+        int idx = -1;
+
         for(int i=0;i<6;i++){
             if(word[i] == ch){
-                System.out.print(i);
+               idx = i;
             }
+        }
+
+        if(idx == -1){
+            System.out.print("None");
+        }
+        else{
+            System.out.print(idx);
         }
     }
 }
