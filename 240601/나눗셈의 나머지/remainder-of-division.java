@@ -7,6 +7,7 @@ public class Main {
 
         int a = sc.nextInt();
         int b = sc.nextInt();
+        
         int num = 0;
         while(a!=0){
             if(a>0){
@@ -16,11 +17,13 @@ public class Main {
                 a = num;
             }
         }
-    
+
+
+        
 
         int sum = 0;
         for(int i =0;i<10;i++){
-            sum += arr[i] * arr[i];
+            sum = sum + (arr[i] * arr[i]);
         }
         System.out.print(sum);
 
