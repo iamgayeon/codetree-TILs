@@ -7,11 +7,12 @@ public class Main {
         for(int i = 0;i<n;i++){
             for(int j=0;j<=i;j++){
                 System.out.print((char)(ch));
-
                 if(ch == 'Z'){
                     ch = 'A';
+                    continue;
                 }
                 ch++;
+                
             }
             System.out.println();
         }
