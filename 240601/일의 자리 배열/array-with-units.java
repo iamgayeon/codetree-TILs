@@ -17,7 +17,7 @@ public class Main {
 
         }
         for(int i =0 ;i <10;i++){
-            if(arr[i]>10){ 
+            if(arr[i]>=10){ 
                 arr[i] = arr[i] % 10;
                 System.out.print(arr[i] + " ");
 
