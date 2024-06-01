@@ -8,20 +8,23 @@ public class Main {
 
         int n = sc.nextInt();
 
-        for(int i=1;i<10;i++){
-            arr[i] = n*i;
+        for(int i=0;i<10;i++){
+            arr[i] = n*(i+1);
             if(arr[i]%5==0){
                 count++;
-                System.out.print(arr[i] +" ");
-                if(count ==2){
+            
+                if(count ==3){
                     break;
+                } else{
+                    System.out.print(arr[i] +" ");
                 }
-            else{
+                
+            } else{
                 System.out.print(arr[i] +" ");
             }
-    
-            }
+            
         }
+        
     }
 
 }
