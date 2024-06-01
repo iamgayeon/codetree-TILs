@@ -11,7 +11,7 @@ public class Main {
 
         for(int i=0;i<n;i++){
             word[i] = sc.nextInt();
-            if(word[i] == 3){
+            if(word[i] == m){
                 count +=1;
             }
         }
