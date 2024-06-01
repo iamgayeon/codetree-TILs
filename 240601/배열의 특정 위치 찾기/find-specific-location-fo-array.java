@@ -18,7 +18,7 @@ public class Main {
         int count =0;
         
         for(int i=0;i<10;i++){
-            if(arr[i] % 3 == 0){
+            if((i+1)%3==0){
                 sum += arr[i];
                 count +=1;
             }
