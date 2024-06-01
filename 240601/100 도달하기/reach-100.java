@@ -10,7 +10,7 @@ public class Main {
         arr[1] = n;
         int sum = 0;
         
-        int count = 1;
+        int count = 2;
 
         for(int i=1;i<100;i++){
             arr[i+1] = arr[i] + arr[i-1];
