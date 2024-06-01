@@ -9,7 +9,8 @@ public class Main {
 
         for(int i=0;i<10;i++){
             arr[i] = sc.nextInt();
-            if(arr[i]%2==0 && arr[i] !=0){
+            if(arr[i] !=0)
+                if(arr[i]%2==0){
                 sum += arr[i];
                 count +=1;
             }
