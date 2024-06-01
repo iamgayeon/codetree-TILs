@@ -13,6 +13,7 @@ public class Main {
                 if(arr[i]%2==0){
                 sum += arr[i];
                 count +=1;
+                break;
             }
         }
         System.out.print(count+" ");
