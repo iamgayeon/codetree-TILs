@@ -18,7 +18,7 @@ public class Main {
             }
         }
         System.out.print(sum + " ");
-        System.out.print((double)sum/cnt + " ");
+        System.out.printf("%.1f", (double)sum/cnt);
         
     }
 }
