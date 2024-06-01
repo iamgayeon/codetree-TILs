@@ -16,8 +16,7 @@ public class Main {
                 System.out.print(arr[i-1]);
                 break;
             }
-           =
-
+        
         }
 
 
