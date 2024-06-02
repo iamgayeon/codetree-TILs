@@ -9,7 +9,6 @@ public class Main {
             for(int j=0;j<4;j++){
                 arr[i][j] = sc.nextInt();
             }
-            System.out.println();
         }
         
         for(int i=0;i<2;i++){
@@ -31,16 +30,16 @@ public class Main {
             System.out.printf("%.1f"+ " " , sum);
         }
         System.out.println();
-
+        double s = 0.0;
         for(int i=0;i<2;i++){
-            double s = 0.0;
+           
             for(int j=0;j<4;j++){
                 s += arr[i][j];
             }
-            s = s/8;
-        
         }
+        s = s/8;
         System.out.printf("%.1f" , s);
+        
 
 
  
