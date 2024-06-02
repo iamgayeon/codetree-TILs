@@ -27,7 +27,7 @@ public class Main {
         }
       
         System.out.print(arr[9] + " ");
-        System.out.print(arr[8 ]);
+        System.out.print(arr[8]);
 
     }
 }
