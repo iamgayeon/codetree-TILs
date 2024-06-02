@@ -5,12 +5,14 @@ public class Main {
 
         int n = sc.nextInt();
 
-        int[] arr = new int[n];
-        int max = 100;
 
-        for(int i=0;i<n;i++){
+        int[] arr = new int[n];
+        arr[0] = sc.nextInt();
+        int max = arr[0];
+
+        for(int i=1;i<n;i++){
             arr[i] = sc.nextInt();
-            if(arr[i] < max){
+            if(arr[i] < arr[i-1]){
                 max = arr[i];
             }
         }
