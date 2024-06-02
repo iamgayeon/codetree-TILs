@@ -6,7 +6,7 @@ public class Main {
         
 
         int n = sc.nextInt();
-        int max = Integer.MIN_VALUE;
+
         
 
         int[] arr= new int[n];
