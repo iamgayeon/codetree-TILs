@@ -13,29 +13,29 @@ public class Main {
 
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
-                arr[n][m] = sc.nextInt();
+                arr[i][j] = sc.nextInt();
             }
         }
 
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
-                arr1[n][m] = sc.nextInt();
+                arr1[i][j] = sc.nextInt();
             }
         }
 
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
-                if(arr[n][m] == arr1[n][m]){
-                    arr2[n][m] = 0;
+                if(arr[i][j] == arr1[i][j]){
+                    arr2[i][j] = 0;
                 }else{
-                    arr2[n][m] = 1;
+                    arr2[i][j] = 1;
                 }
             }
         }
 
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
-                System.out.print(arr2[n][m]);
+                System.out.print(arr2[i][j] +" ");
             }
             System.out.println();
         }
