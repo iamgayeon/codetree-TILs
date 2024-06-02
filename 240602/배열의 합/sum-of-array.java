@@ -16,7 +16,7 @@ public class Main {
             for(int j=0;j<4;j++){
                 sum += arr[i][j];
             }
-            System.out.println(sun);
+            System.out.println(sum);
         }
 
         
