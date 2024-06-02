@@ -16,15 +16,18 @@ public class Main {
             arr[i] = sc.nextInt();
         }
         
-        for(int i=0;i<n-1;i++){
-            if(arr[i] < arr[i+1]){
-                temp = arr[i];
-                arr[i] = arr[i+1];
-                arr[i+1] = temp;
+        for(int i=0;i<n;i++){
+            for(int j=0;j<n;j++){
+                if(arr[i] < arr[j]){
+                    temp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = temp;
                 }
             }
-        System.out.print(arr[0] + " ");
-        System.out.print(arr[1]);
-
         }
+      
+        System.out.print(arr[9] + " ");
+        System.out.print(arr[8 ]);
+
+    }
 }
