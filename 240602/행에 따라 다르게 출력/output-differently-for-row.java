@@ -15,17 +15,17 @@ public class Main {
                     System.out.print(num + " ");
                     num +=1;
                 }
-            }
-            else{
-                for(int k=0;k<n;k++){
+            } else{
+                num2 = num + 1;
+                for(int j=0;j<n;j++){
                     System.out.print(num2 + " ");
                     num2 +=2;
                 }
+                num = num2 -1;
             }
 
             System.out.println();
-            num2 = num + 1;
-            num = (num-1)*3+1;
+           
         }
 
         
