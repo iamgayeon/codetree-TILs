@@ -7,23 +7,22 @@ public class Main {
 
 
         int[] arr = new int[n];
-        arr[0] = sc.nextInt();
-        int max = arr[0];
+        int minVal = Integer.MAX_VALUE;
 
         for(int i=1;i<n;i++){
             arr[i] = sc.nextInt();
-            if(arr[i] < arr[i-1]){
-                max = arr[i];
+            if(minVal > arr[i]){
+                minVal = arr[i];
             }
         }
         int count =0;
         for(int i=0;i<n;i++){
-            if(arr[i] == max){
+            if(arr[i] == minVal){
                 count += 1;
             }
         }
 
-        System.out.print(max + " ");
+        System.out.print(minVal + " ");
         System.out.print(count);
 
         
