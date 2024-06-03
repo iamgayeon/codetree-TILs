@@ -20,20 +20,18 @@ public class Main {
                 }
             }
         }
+        int count = 0;
+            for(int i=0;i<n-1;i++){
+                if(arr[0] == arr[i+1]){
+                    count +=1;
+            }
+        }
 
-
-            if(arr[0] == arr[1]){
+            if(count == 0){
+                System.out.print(arr[0]);
+            }else{
                 System.out.print(-1);
             }
-            else{
-                System.out.print(arr[0]);
-            }
-        
-
-        
-
-       
-
         
     }
 }
