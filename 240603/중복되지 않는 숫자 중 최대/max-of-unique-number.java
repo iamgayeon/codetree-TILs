@@ -30,7 +30,7 @@ public class Main {
             if(count == 0){
                 System.out.print(arr[0]);
             }else{
-                System.out.print(-1);
+                System.out.print(arr[count+1]);
             }
         
     }
