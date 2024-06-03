@@ -19,13 +19,13 @@ public class Main {
             arr2[j] = sc.nextInt();
         }
 
-        for(int i=0;i<a;i++){
-            for(int j=0;j<b;j++){
+        for(int i=0;i<a-1;i++){
+            for(int j=0;j<b-1;j++){
                 if(arr1[i] == arr2[j]){
-                    if(arr1[i-1] == arr2[j]){
-                        if(arr1[i] == arr2[j-1]){
+                    if(arr1[i+1] == arr2[j+1]){
+                       
                             cnt ++;
-                        }
+                        
                     }
                 }
             }
