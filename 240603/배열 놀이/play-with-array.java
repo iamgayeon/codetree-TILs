@@ -26,6 +26,7 @@ public class Main {
                     if(arr[i] ==b){
                         System.out.println(i+1);
                         count = 1;
+                        break;
                     }
                 }
                 if(count == 0){
@@ -39,8 +40,9 @@ public class Main {
                     {
                         System.out.print(arr[i] +" ");
                     }
-
+            
                 }
+                System.out.println();
 
             }
         }
