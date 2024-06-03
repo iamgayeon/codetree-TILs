@@ -23,13 +23,15 @@ public class Main {
             for(int j=0;j<b;j++){
                 if(arr1[i] == arr2[j]){
                     if(arr1[i-1] == arr2[j]){
-                        cnt ++;
+                        if(arr1[i] == arr2[j-1]){
+                            cnt ++;
+                        }
                     }
                 }
             }
         }
 
-        if(cnt >0){
+        if(cnt > 0){
             System.out.print("Yes");
         }else{
             System.out.print("No");
