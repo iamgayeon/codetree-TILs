@@ -12,24 +12,23 @@ public class Main {
             arr[i] = sc.nextInt();
         }
 
-        HashMap<Integer, Integer> countMap = new HashMap<>();
+        int max = -1;
+        for(int i=0;i<n;i++){
+            int nummax = arr[i];
 
-        // 각 숫자의 등장 횟수를 세기
-        for (int i = 0; i < n; i++) {
-            countMap.put(arr[i], countMap.getOrDefault(arr[i], 0) + 1);
-        }
-
-        int maxUnique = -1;
-
-        // 등장 횟수가 한 번인 숫자 중 최대값 찾기
-        for (int key : countMap.keySet()) {
-            if (countMap.get(key) == 1) {
-                if (key > maxUnique) {
-                    maxUnique = key;
+            if(max < nummax){
+                int count = 0;
+                for(int j=0; j<n;j++){
+                    if(arr[j] == nummax){
+                        count++;
+                    }
+                }
+                if(count == 1){
+                    max = nummax;
                 }
             }
         }
 
-        System.out.println(maxUnique);
+        System.out.println(max);
     }
 }
