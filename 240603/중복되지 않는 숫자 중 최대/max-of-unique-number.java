@@ -1,37 +1,35 @@
+import java.util.HashMap;
 import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
-
         int[] arr = new int[n];
-        for(int i=0;i<n;i++){
+
+        for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
-        
-        int temp = 0;
-        for(int i=0;i<n;i++){
-            for(int j=1;j<n;j++){
-                if(arr[i] < arr[j]){
-                    temp = arr[i];
-                    arr[i] = arr[j];
-                    arr[j] = temp;
+
+        HashMap<Integer, Integer> countMap = new HashMap<>();
+
+        // 각 숫자의 등장 횟수를 세기
+        for (int i = 0; i < n; i++) {
+            countMap.put(arr[i], countMap.getOrDefault(arr[i], 0) + 1);
+        }
+
+        int maxUnique = -1;
+
+        // 등장 횟수가 한 번인 숫자 중 최대값 찾기
+        for (int key : countMap.keySet()) {
+            if (countMap.get(key) == 1) {
+                if (key > maxUnique) {
+                    maxUnique = key;
                 }
             }
         }
-        int count = 0;
-            for(int i=0;i<n-1;i++){
-                if(arr[0] == arr[i+1]){
-                    count +=1;
-            }
-        }
 
-            if(count == 0){
-                System.out.print(arr[0]);
-            }else{
-                System.out.print(arr[count+1]);
-            }
-        
+        System.out.println(maxUnique);
     }
 }
