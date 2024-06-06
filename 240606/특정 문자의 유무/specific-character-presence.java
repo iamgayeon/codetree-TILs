@@ -7,13 +7,13 @@ public class Main {
         if (s.contains("ee")) {
             System.out.print("Yes ");
         }else{
-            System.out.print("No");
+            System.out.print("No ");
         }
 
         if (s.contains("ab")){
             System.out.print("Yes ");
         }else{
-            System.out.print("No");
+            System.out.print("No ");
         }
     }
 }
