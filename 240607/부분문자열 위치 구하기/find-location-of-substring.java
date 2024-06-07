@@ -7,9 +7,10 @@ public class Main {
         int c1 = 0;
         for(int i=1;i<s.length();i++){
             for(int j=1;j<s1.length();j++)
-            if(s.charAt(i-1) == s1.charAt(j-1)&&(s.charAt(i) == s1.charAt(j)))
+            if(s.charAt(i-1) == s1.charAt(j-1)&&(s.charAt(i) == s1.charAt(j))){
                 c1 +=1;
                 break;
+            }
         }
         if(c1 > 0){
             System.out.print(c1);
