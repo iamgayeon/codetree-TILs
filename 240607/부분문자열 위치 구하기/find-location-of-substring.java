@@ -6,7 +6,8 @@ public class Main {
         String s1 = sc.next();
         int c1 = 0;
         for(int i=1;i<s.length();i++){
-            if(s.charAt(i-1) == s1.charAt(0)&&(s.charAt(i) == s1.charAt(1)))
+            for(int j=1;j<s1.length();j++)
+            if(s.charAt(i-1) == s1.charAt(j-1)&&(s.charAt(i) == s1.charAt(j)))
                 c1 +=1;
         }
         if(c1 > 0){
