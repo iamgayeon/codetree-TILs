@@ -3,21 +3,15 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String s = sc.next();
-        String s1 = sc.next();
-        int c1 = -1;
+        String input = sc.nextLine();
+        String target = sc.nextLine();
         
-        for (int i = 0; i < s.length() - 1; i++) {
-            for (int j = 0; j < s1.length() - 1; j++) {
-                if (s.charAt(i) == s1.charAt(j) && s.charAt(i + 1) == s1.charAt(j + 1)) {
-                    c1 = i;
-                    break;
-                }
-            }
-            if (c1 != -1) // 이미 c1이 찾아졌다면 반복을 종료합니다.
-                break;
+        int index = input.indexOf(target); // 입력 문자열에서 목적 문자열의 첫 번째 등장 위치 찾기
+        
+        if (index != -1) {
+            System.out.println(index); // 목적 문자열이 부분 문자열로 존재하는 경우 시작 인덱스 출력
+        } else {
+            System.out.println(-1); // 목적 문자열이 부분 문자열로 존재하지 않는 경우 -1 출력
         }
-        
-        System.out.print(c1);
     }
 }
