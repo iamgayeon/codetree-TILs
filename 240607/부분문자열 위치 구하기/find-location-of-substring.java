@@ -8,7 +8,7 @@ public class Main {
         for(int i=1;i<s.length();i++){
             for(int j=1;j<s1.length();j++)
             if(s.charAt(i-1) == s1.charAt(j-1)&&(s.charAt(i) == s1.charAt(j))){
-                c1 = i-1;
+                c1 = j;
                 break;
             }
         }
