@@ -4,7 +4,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         String s = sc.next();
         String b = sc.next();
-        sc.close();
+
 
         while (true) {
             int index = s.indexOf(b);
