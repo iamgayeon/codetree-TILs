@@ -7,7 +7,7 @@ public class Main {
         while(true){
             int n = sc.nextInt();
             if(s.length() < n){
-                s = s.substring(0,1);
+                s = s.substring(0,s.length()-1);
                 System.out.println(s);
                 
             }else{
