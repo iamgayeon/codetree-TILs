@@ -6,7 +6,7 @@ public class Main {
         int count = 0;
         int n = sc.nextInt();
         String a = sc.next();
-        for(int i=0;i<a.length();i++){
+        for(int i=0;i<n;i++){
             String b = sc.next();
             if(a.equals(b) == true){
                 count+=1;
